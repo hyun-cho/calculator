@@ -55,5 +55,11 @@ double multi(double number1, double number2)
 double div(double number1, double number2)
 {
 	//TODO implementation
-	return 0;
+
+    if (number2 == 0) {
+        fprintf(stderr, "div 0 error\n");
+        exit(1);
+    }
+
+    return number1 / number2;
 }
