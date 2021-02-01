@@ -1,9 +1,9 @@
 #include <stdio.h>
  
-double add(double, int);
-double sub(double, int);
-double div(double, int);
-double multi(double, int);
+double add(double, double);
+double sub(double, double);
+double div(double, double);
+double multi(double, double);
  
 int main(int argc, char* argv[])
 {
