@@ -49,7 +49,7 @@ double sub(double number1, double number2)
 double multi(double number1, double number2)
 {
 	//TODO implementation
-	return 0;
+	return number1 * number2;
 }
  
 double div(double number1, double number2)
