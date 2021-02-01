@@ -1,16 +1,16 @@
 #include <stdio.h>
  
-int add(int, int);
-int sub(int, int);
-int div(int, int);
-int multi(int, int);
+double add(double, int);
+double sub(double, int);
+double div(double, int);
+double multi(double, int);
  
 int main(int argc, char* argv[])
 {
-	int number1, number2, result;
+	double number1, number2, result;
 	char operator;
 	
-	printf("Please enter a expression: ");
+	prdoublef("Please enter a expression: ");
 	scanf("%d %c %d", &number1, &operator, &number2);
 	
 	switch (operator)
@@ -29,30 +29,30 @@ int main(int argc, char* argv[])
 			break;
 	}
 	
-	printf("result is %d.\n", result);
+	prdoublef("result is %d.\n", result);
 	
 	return 0;
 }
  
-int add(int number1, int number2)
+double add(double number1, double number2)
 {
 	//TODO implementation
 	return 0;
 }
  
-int sub(int number1, int number2)
+double sub(double number1, double number2)
 {
 	//TODO implementation
 	return 0;
 }
  
-int multi(int number1, int number2)
+double multi(double number1, double number2)
 {
 	//TODO implementation
 	return 0;
 }
  
-int div(int number1, int number2)
+double div(double number1, double number2)
 {
 	//TODO implementation
 	return 0;
