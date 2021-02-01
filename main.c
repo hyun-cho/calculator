@@ -7,7 +7,7 @@ int multi(int, int);
  
 int main(int argc, char* argv[])
 {
-	int a, b, c;
+	int number1, number2, number3;
 	char operator;
 	
 	printf("Please enter a expression");
