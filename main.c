@@ -10,7 +10,7 @@ int main(int argc, char* argv[])
 	double number1, number2, result;
 	char operator;
 	
-	prdoublef("Please enter a expression: ");
+	printf("Please enter a expression: ");
 	scanf("%d %c %d", &number1, &operator, &number2);
 	
 	switch (operator)
@@ -29,7 +29,7 @@ int main(int argc, char* argv[])
 			break;
 	}
 	
-	prdoublef("result is %d.\n", result);
+	printf("result is %d.\n", result);
 	
 	return 0;
 }
